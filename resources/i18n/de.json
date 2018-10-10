@@ -273,5 +273,12 @@
     "errors": {
       "invalid-user": "Ungültige E-Mail-Adresse oder Passwort."
     }
+  },
+  "language-switch": {
+    "language": "Sprache",
+    "en": "English",
+    "de": "Deutsch",
+    "nl": "Nederlands",
+    "cs": "český"
   }
 }

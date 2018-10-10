@@ -1,0 +1,7 @@
+<div class="navbar nav" *ngIf="display">
+  <select #langSelect (change)="switchLanguage(langSelect.value)">
+    <option *ngFor="let locale of supportedLocales" [value]="locale" [selected]="locale === translate.currentLang">
+      {{ ('language-switch.' + locale) | translate }}
+    </option>
+  </select>
+</div>

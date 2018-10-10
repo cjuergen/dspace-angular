@@ -44,9 +44,14 @@ export class AppComponent implements OnInit, AfterViewInit {
     private router: Router
   ) {
     // this language will be used as a fallback when a translation isn't found in the current language
-    translate.setDefaultLang('en');
-    // the lang to use, if the lang isn't available, it will use the current loader to get them
-    translate.use('en');
+    translate.setDefaultLang(config.defaultLocale);
+    translate.addLangs(config.supportedLocales);
+    // Use the browse lang for the beginning
+    if (translate.getLangs().includes(translate.getBrowserLang())) {
+        translate.use(translate.getBrowserLang());
+    } else {
+      translate.use(config.defaultLocale);
+    }
 
     metadata.listenForRouteChange();
 

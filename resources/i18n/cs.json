@@ -273,5 +273,12 @@
     "errors": {
       "invalid-user": "Neplatná e-mailová adresa nebo heslo."
     }
+  },
+  "language-switch": {
+    "language": "jazyk",
+    "en": "English",
+    "de": "Deutsch",
+    "nl": "Nederlands",
+    "cs": "český"
   }
 }

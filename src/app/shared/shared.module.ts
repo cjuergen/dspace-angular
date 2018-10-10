@@ -43,6 +43,7 @@ import { ThumbnailComponent } from '../thumbnail/thumbnail.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { SearchResultGridElementComponent } from './object-grid/search-result-grid-element/search-result-grid-element.component';
 import { ViewModeSwitchComponent } from './view-mode-switch/view-mode-switch.component';
+import { LanguageSwitchComponent } from './language-switch/language-switch.component';
 import { GridThumbnailComponent } from './object-grid/grid-thumbnail/grid-thumbnail.component';
 import { VarDirective } from './utils/var.directive';
 import { LogInComponent } from './log-in/log-in.component';
@@ -136,6 +137,7 @@ const COMPONENTS = [
   DsDatePickerComponent,
   ErrorComponent,
   FormComponent,
+  LanguageSwitchComponent,
   LoadingComponent,
   LogInComponent,
   LogOutComponent,

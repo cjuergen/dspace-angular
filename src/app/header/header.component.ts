@@ -14,7 +14,7 @@ const navCollapsedSelector = createSelector(headerStateSelector, (header: Header
 @Component({
   selector: 'ds-header',
   styleUrls: ['header.component.scss'],
-  templateUrl: 'header.component.html',
+  templateUrl: 'header.component.html'
 })
 export class HeaderComponent implements OnInit {
   /**

@@ -16,4 +16,6 @@ export interface GlobalConfig extends Config {
   gaTrackingId: string;
   logDirectory: string;
   debug: boolean;
+  defaultLocale: string;
+  supportedLocales: string[];
 }
